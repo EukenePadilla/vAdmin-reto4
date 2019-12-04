@@ -11,37 +11,36 @@
 </head>
 
 <body>
-	<header class="encabezado_vAdmin paneles" >
+	<header class="encabezado_vAdmin " >
 		<h1>ADMIN VIEW</h1>
 	</header>
-<div class="paneles">
-    	<div class="panelJ paneles" id="panelJ" style="margin-bottom:50px;">
-    	<div class="titulo_boton">
-    		<h2 class="tituloJAdmin">JUGADORES</h2>
-    		<button class="insertJ insert_paneles" >INSERT</button>
-        </div>
-        <div style="margin:50px">
-            <table class="rellenoAdminJugadores">
-    			<tr>
-    			
-         			<th>IDJUGADOR</th> 
-         			<th>NOMBRE</th>
-         			<th>IMAGEN</th>
-         			<th>ROL</th>
-         			<th>TELEFONO</th>
-         			<th>IDEQUIPO</th>
-         			<th>DELETE</th>
-         			<th>UPDATE</th>
-        		</tr>
-        	</table>
-    	</div>
-    </div> 
-<div class="panelEq paneles" id="panelEq" style="margin-bottom:50px;">
+<div >
+    	<div class="panelJ paneles" id="panelJ" >
+            <div class="titulo_boton">
+                <div class="tituloJAdmin" data-tipo="Jugador"><h2>JUGADORES</h2></div>
+                <button class="insertJ insert_paneles" >INSERT</button>
+            </div>
+            <div class="divTablaAdmin">
+                <table class="rellenoAdminJugadores">
+                    <tr>
+                    
+                        <th>IDJUGADOR</th> 
+                        <th>NOMBRE</th>
+                        <th>IMAGEN</th>
+                        <th>ROL</th>
+                        <th>TELEFONO</th>
+                        <th>IDEQUIPO</th>
+                        <th>ACCION</th>
+                    </tr>
+                </table>
+            </div>
+        </div> 
+<div class="panelEq paneles" id="panelEq" >
 			<div class="titulo_boton">
-    		<h2 class="tituloEqAdmin">EQUIPOS</h2>
+    		<div class="tituloEqAdmin" data-tipo="Equipo"><h2>EQUIPOS</h2></div>
     		<button class="insertEq insert_paneles">INSERT</button>
     		</div>
-            <div style="margin:50px">
+            <div class="divTablaAdmin" >
                 <table class="rellenoAdminEquipo">
     			<tr>
     			
@@ -49,19 +48,18 @@
          			<th>NOMBRE</th> 
          			<th>LOGO</th> 
          			<th>IDCATEGORIA</th>
-         			<th>DELETE</th>
-         			<th>UPDATE</th>
-        		</tr>
+                     <th>ACCION</th>
+                </tr>
         	</table>
         	        		
         </div>
     </div>     
-        <div class="panelEn paneles" id="panelEn" style="margin-bottom:50px;">
+        <div class="panelEn paneles" id="panelEn" >
             <div class="titulo_boton">
-                <h2 class="tituloEnAdmin">ENTRENADOR</h2>
+                <div class="tituloEnAdmin" data-tipo="Entrenador"><h2>ENTRENADOR</h2></div>
                 <button class="insertEn insert_paneles" >INSERT</button>
             </div>
-            <div style="margin:50px">
+            <div class="divTablaAdmin" >
                 <table class="rellenoAdminEntrenador">
                     <tr>
                     
@@ -70,18 +68,17 @@
                          <th>IMAGEN</th>
                          <th>TELEFONO</th>
                          <th>IDEQUIPO</th>
-                         <th>DELETE</th>
-                         <th>UPDATE</th>
+                         <th>ACCION</th>
                     </tr>
                 </table>
             </div>
         </div> 
-            <div class="panelCa paneles" id="panelCa" style="margin-bottom:50px;">
-                <div class="titulo_boton">
-                    <h2 class="tituloCaAdmin">CATEGORIA</h2>
+            <div class="panelCa paneles" id="panelCa" >
+                <div class="titulo_boton"  >
+                    <div class="tituloCaAdmin" data-tipo="Categoria"><h2>CATEGORIA</h2></div>
                     <button class="insertCa insert_paneles" >INSERT</button>
                 </div>
-                <div style="margin:50px">
+                <div class="divTablaAdmin" >
                     <table class="rellenoAdminCategoria">
                         <tr>
                         
@@ -90,20 +87,19 @@
                              <th>IMAGEN</th>
                              <th>TELEFONO</th>
                              <th>IDEQUIPO</th>
-                             <th>DELETE</th>
-                             <th>UPDATE</th>
+                             <th>ACCION</th>
                         </tr>
                     </table>
                 </div>
                 </div>
                 
         
-                <div class="panelCo paneles" id="panelCo" style="margin-bottom:50px;">
+                <div class="panelCo paneles" id="panelCo" >
                     <div class="titulo_boton">
-                        <h2 class="tituloCoAdmin">CONSULTA</h2>
+                        <div class="tituloCoAdmin" data-tipo="Consulta"><h2 >CONSULTA</h2></div>
                         <button class="insertCo insert_paneles" >INSERT</button>
                     </div>
-                    <div style="margin:50px">
+                    <div class="divTablaAdmin" >
                         <table class="rellenoAdminConsulta">
                             <tr>
                             
@@ -112,18 +108,18 @@
                                     <th>IMAGEN</th>
                                     <th>TELEFONO</th>
                                     <th>IDEQUIPO</th>
-                                    <th>DELETE</th>
-                                    <th>UPDATE</th>
+                                    <th>ACCION</th>
                             </tr>
                         </table>
                     </div>    
                 </div> 
-        <div class="panelU paneles" id="panelU" style="margin-bottom:50px;">
+        <div class="panelU paneles" id="panelU">
 			<div class="titulo_boton">
-    		<h2 class="tituloUAdmin">USUARIOS</h2>
-    		<button class="insertU insert_paneles">INSERT</button>
+    		<div class="tituloUAdmin" data-tipo="Usuario"><h2>USUARIOS</h2></div>
+    		<!-- <button class="insertU insert_paneles">INSERT</button> -->
     		</div>
-            <div style="margin:50px">
+            <div class="divTablaAdmin">
+                <button type="button">Insertar Usuario</button>
                 <table class="rellenoAdminUsuario">
     			<tr>
     			
@@ -134,15 +130,14 @@
          			<th>TELEFONO</th>
          			<th>CORREO</th>
          			<th>TIPO</th>
-         			<th>DELETE</th>
-         			<th>UPDATE</th>
-        		</tr>
+                     <th>ACCION</th>
+                </tr>
         	</table>
         	      </div>  		
     	</div>
     
     </div>
-    <div  class="paneles" style="margin-top:50px;"><a href="../index.html"><button class="boton_atras_vAdminV ">GO INDEX</button></a></div>
+    <div  class="GOINDEXbtn" style="margin-top:20px;"><a href="../index.html"><button class="boton_atras_vAdminV ">GO INDEX</button></a></div>
    
     <div class="insertarAdmin"></div>  
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

@@ -36,20 +36,26 @@
 }
 .paneles{
 	text-align:center;
+	border: 1px solid black;
+	margin-bottom: 1px;
 }
+.GOINDEXbtn{
+	text-align:center;
+}
+
 .paneles table{
 	margin:auto;
 	background-color: #8e9cb3;
-	border-radius:30px;
 	padding:20px;
-}
-.paneles tr{
 	border: 2px solid black;
-	text-align:center;
 }
+.paneles table, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+  }
+
 .paneles  table  tr  th{
-	margin:5px;
-	padding:5px;
+	padding:20px;
 	color: 272D4F;
 font-size:20px;
 }
@@ -68,42 +74,27 @@ font-size:20px;
 	border-radius:5px;
 }
 .insert_paneles{
-	padding:0px;
+	padding:10px;
 	background-color:cornblue;
 	color:black;
 	border-color:cornblue;
 	border-radius:5px;
+	align-self: center;
+  justify-self: center;
 }
-.titulo_boton{
-	
+.titulo_boton{	
 	display: inline-grid;
 	grid-template-columns: 300px 100px;
-	grid-template-rows: 50px;
 }
-.rellenoAdminJugadores{
+
+.titulo_boton>h2{
+	align-self: center;
+	justify-self: center;
+}
+
+
+.divTablaAdmin{
 	display:none;
-}
-
-.rellenoAdminUsuario{
-	display:none;
-}
-
-.rellenoAdminEquipo{
-	display:none;
-}
-
-.rellenoAdminEntrenador{
-    display:none;
-}
-
-.rellenoAdminCategoria{
-    display:none;
-
-}
-
-.rellenoAdminConsulta{
-    display:none;
-
 }
 
 /* desde casa         */

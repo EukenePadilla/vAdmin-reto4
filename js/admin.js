@@ -15,15 +15,14 @@ $(document).ready(function(){
 	// iniciarJAdmin();
 	$(".tituloJAdmin").click(function(){
 		if(comprobarJ==0){
-			$(".rellenoAdminJugadores").show(1200); 
-			$(".rellenoAdminUsuario").hide(800);
-			$(".rellenoAdminEquipo").hide(800);
-            $(".rellenoAdminEntrenador").hide(800); 
-            $(".rellenoAdminCategoria").hide(800); 
-            $(".rellenoAdminConsulta").hide(800); 
-            comprobarJ=1;
+			$(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
+			$(".panelJ .divTablaAdmin").show(1200);
+			$(".panelJ .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			comprobarJ=1;
 		}else{
-			$(".rellenoAdminJugadores").hide(800);
+			$(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
 			comprobarJ=0;
 		}
     });
@@ -33,30 +32,28 @@ $(document).ready(function(){
 
     $(".tituloEqAdmin").click(function(){
 		if(comprobarEq==0){
-			$(".rellenoAdminEquipo").show(1200); 
-			$(".rellenoAdminJugadores").hide(800);
-            $(".rellenoAdminUsuario").hide(800);
-            $(".rellenoAdminEntrenador").hide(800); 
-            $(".rellenoAdminCategoria").hide(800); 
-            $(".rellenoAdminConsulta").hide(800); 
-            comprobarEq=1;
+			$(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
+			$(".panelEq .divTablaAdmin").show(1200);
+			$(".panelEq .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			comprobarEq=1;
 		}else{
-			$(".rellenoAdminEquipo").hide(800);
+			$(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
 			comprobarEq=0;
 		}
     });
     
     $(".tituloEnAdmin").click(function(){
 		if(comprobarEn==0){
-            $(".rellenoAdminEntrenador").show(1200); 
-			$(".rellenoAdminUsuario").hide(800); 
-			$(".rellenoAdminJugadores").hide(800);
-			$(".rellenoAdminEquipo").hide(800);
-            $(".rellenoAdminCategoria").hide(800); 
-            $(".rellenoAdminConsulta").hide(800); 
-            comprobarEn=1;
+            $(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
+			$(".panelEn .divTablaAdmin").show(1200);
+			$(".panelEn .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			comprobarEn=1;
 		}else{
-			$(".rellenoAdminEntrenador").hide(800);
+			$(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
 			comprobarEn=0;
 		}
     });	
@@ -64,48 +61,46 @@ $(document).ready(function(){
 
     $(".tituloCaAdmin").click(function(){
 		if(comprobarCa==0){
-            $(".rellenoAdminCategoria").show(1200); 
-            $(".rellenoAdminEntrenador").hide(800); 
-			$(".rellenoAdminUsuario").hide(800); 
-			$(".rellenoAdminJugadores").hide(800);
-			$(".rellenoAdminEquipo").hide(800);
-            $(".rellenoAdminConsulta").hide(800); 
-            comprobarCa=1;
+            $(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
+			$(".panelCa .divTablaAdmin").show(1200);
+			$(".panelCa .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			comprobarCa=1;
 		}else{
-			$(".rellenoAdminCategoria").hide(800);
+			$(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
 			comprobarCa=0;
 		}
     });	
 
     $(".tituloCoAdmin").click(function(){
 		if(comprobarCo==0){
-            $(".rellenoAdminConsulta").show(1200); 
-            $(".rellenoAdminCategoria").hide(800); 
-            $(".rellenoAdminEntrenador").hide(800); 
-			$(".rellenoAdminUsuario").hide(800); 
-			$(".rellenoAdminJugadores").hide(800);
-			$(".rellenoAdminEquipo").hide(800);
-            comprobarCo=1;
+            $(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
+			$(".panelCo .divTablaAdmin").show(1200);
+			$(".panelCo .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			comprobarCo=1;
 		}else{
-            $(".rellenoAdminConsulta").hide(1200); 
+            $(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
 			comprobarCo=0;
 		}
     });	
 
     $(".tituloUAdmin").click(function(){
 		if(comprobarU==0){
-			$(".rellenoAdminUsuario").show(1200); 
-			$(".rellenoAdminJugadores").hide(800);
-			$(".rellenoAdminEquipo").hide(800);
-            $(".rellenoAdminEntrenador").hide(800); 
-            $(".rellenoAdminCategoria").hide(800); 
-            $(".rellenoAdminConsulta").hide(800); 
-            comprobarU=1;
+			$(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
+			$(".panelU .divTablaAdmin").show(1200);
+			$(".panelU .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			comprobarU=1;
 		}else{
-			$(".rellenoAdminUsuario").hide(800);
+			$(".divTablaAdmin").hide(800);
+			$(".divTablaAdmin").css("margin","0px");
 			comprobarU=0;
 		}
-    });	
+	});	
+	
 	// $(".insertV").click(function(){
 		
 	// 	$(".paneles").hide(800);
