@@ -1,0 +1,273 @@
+
+.reservas_vehiculos{
+    margin-top:3%;
+    margin-bottom:3%;
+}
+.reservas_v_container{
+    background-color: gray;
+}
+
+.titulo_reservas{
+    background-color: gray;
+}
+
+.reservas_v_container>div>div>h2{
+	color:white;
+}
+
+.cards_reserva {
+    display:block;
+}
+
+/* Esto se aplica para la vista vAdmin.php */
+
+.encabezado_vAdmin{
+	height:100px;
+	background-size:contain;
+	text-align:center;
+}
+
+#paneladmin{
+	display:flex;
+	justify-content:center;
+	max-width:500px;
+	flex-direction:column;
+	margin:auto;
+}
+.paneles{
+	text-align:center;
+}
+.paneles table{
+	margin:auto;
+	background-color: #8e9cb3;
+	border-radius:30px;
+	padding:20px;
+}
+.paneles tr{
+	border: 2px solid black;
+	text-align:center;
+}
+.paneles  table  tr  th{
+	margin:5px;
+	padding:5px;
+	color: 272D4F;
+font-size:20px;
+}
+.delete_paneles{
+		padding:5px;
+	background-color:red;
+	color:white;
+	border-color:red;
+	border-radius:5px;
+}
+.update_paneles{
+	padding:5px;
+	background-color:green;
+	color:white;
+	border-color:green;
+	border-radius:5px;
+}
+.insert_paneles{
+	padding:0px;
+	background-color:cornblue;
+	color:black;
+	border-color:cornblue;
+	border-radius:5px;
+}
+.titulo_boton{
+	
+	display: inline-grid;
+	grid-template-columns: 300px 100px;
+	grid-template-rows: 50px;
+}
+.rellenoAdminJugadores{
+	display:none;
+}
+
+.rellenoAdminUsuario{
+	display:none;
+}
+
+.rellenoAdminEquipo{
+	display:none;
+}
+
+.rellenoAdminEntrenador{
+    display:none;
+}
+
+.rellenoAdminCategoria{
+    display:none;
+
+}
+
+.rellenoAdminConsulta{
+    display:none;
+
+}
+
+/* desde casa         */
+
+/* INICIO DE INSERTAR VEHICULO DESDE VADMIN CLASES*/
+#form_vAdminInsertV{
+	margin-top:100px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+#elementos_vAdminInsertV{
+	background-color: #489c63;
+	padding:20px;
+    border:5px solid #6ea181; 
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+}
+#elementos_vAdminInsertV > .nombre_vAdminInsertV, .modelo_vAdminInsertV, .potencia_vAdminInsertV, .img_vAdminInsertV, .tipo_vAdminInsertV, #submit_vAdminInsertV{
+    background-color:#5bbc8e ;
+    padding:5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: 30% 70%;
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+         box-sizing: border-box;
+    
+}
+#elementos_vAdminInsertV>div>input:not(.submit_vAdminInsertV){
+    width:90%;
+    padding:5px;
+    border-radius: 5px;
+    border: 3px solid #409568;
+    background-color: #95d0b1;
+}
+
+#submit_vAdminInsertV{
+	height:40px;
+	margin-top:5px!important;
+	cursor:pointer!important;
+	font-size:18px!important;
+	padding:5px!important;
+	background-color:green!important;
+	color:white!important;
+	border:2px solid black!important;
+	border-radius:5px!important;
+}
+.boton_atras_vAdminV{
+	margin-top:10px;
+	cursor:pointer;
+	font-size:18px;
+	padding:5px;
+	background-color:#860e04;
+	color:white;
+	border:2px solid black;
+	border-radius:5px;
+}
+
+/* FIN DE INSERTAR VEHICULO DESDE VADMIN CLASES*/
+
+
+/* INICIO DE INSERTAR USUARIO DESDE VADMIN CLASES*/
+
+#form_vAdminInsertU{
+	margin-top:100px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+#elementos_vAdminInsertU{
+	background-color: #489c63;
+	padding:20px;
+    border:5px solid #6ea181; 
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+}
+#elementos_vAdminInsertU > .usuario_vAdminInsertU, .contrasena_vAdminInsertU, .nombre_vAdminInsertU, .apellido_vAdminInsertU, .telefono_vAdminInsertU, .dni_vAdminInsertU, .tipo_vAdminInsertU, #submit_vAdminInsertU{
+    background-color:#5bbc8e ;
+    padding:5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: 30% 70%;
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+         box-sizing: border-box;
+    
+}
+#elementos_vAdminInsertU>div>input{
+    width:90%;
+    padding:5px;
+    border-radius: 5px;
+    border: 3px solid #409568;
+    background-color: #95d0b1;
+}
+
+#submit_vAdminInsertU, .submit_vAdminUpdate{
+	height:40px;
+	margin-top:5px!important;
+	cursor:pointer!important;
+	font-size:18px!important;
+	padding:5px!important;
+	background-color:green!important;
+	color:white!important;
+	border:2px solid black!important;
+	border-radius:5px!important;
+}
+
+.boton_atras_vAdminU{
+	margin-top:10px;
+	cursor:pointer;
+	font-size:18px;
+	padding:5px;
+	background-color:#860e04;
+	color:white;
+	border:2px solid black;
+	border-radius:5px;
+}
+
+#form_vAdminUpdate{
+	margin-top:100px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#elementos_vAdminUpdate{
+	background-color: #489c63;
+	padding:20px;
+    border:5px solid #6ea181; 
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+}
+/* Esto se aplica para la vista vAdmin.php */
+
+
+
+/* MEDIA QUERY*/
+@media (max-width: 991px) { 
+	
+	
+/* 	.paneles{ */
+/* 	font-size: 20px; */
+/* 	} */
+	
+	td{
+		font-size: 30px;
+	}
+	
+	a{		
+	font-size: 30px!important;
+	
+	}
+}
