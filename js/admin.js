@@ -17,14 +17,17 @@ $(document).ready(function(){
 		if(comprobarJ==0){
 			$(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			$(".panelJ .divTablaAdmin").show(1200);
-			$(".panelJ .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			$(".panelJ .divTablaAdmin .rellenoAdminJugador").css({"margin-top":"50px", "margin-bottom": "50px"});
+			$(".panelJ .titulo_boton").css({"border-bottom":"1px solid black", "background-color":"gray"});
 			comprobarJ=1;
 		}else{
 			$(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			comprobarJ=0;
-		}
+		 }
     });
     // iniciarUAdmin();
 
@@ -34,12 +37,15 @@ $(document).ready(function(){
 		if(comprobarEq==0){
 			$(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			$(".panelEq .divTablaAdmin").show(1200);
-			$(".panelEq .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			$(".panelEq .divTablaAdmin .rellenoAdminEquipo").css({"margin-top":"50px", "margin-bottom": "50px"});
+			$(".panelEq .titulo_boton").css({"border-bottom":"1px solid black", "background-color":"gray"});
 			comprobarEq=1;
 		}else{
 			$(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			comprobarEq=0;
 		}
     });
@@ -48,12 +54,15 @@ $(document).ready(function(){
 		if(comprobarEn==0){
             $(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			$(".panelEn .divTablaAdmin").show(1200);
-			$(".panelEn .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			$(".panelEn .divTablaAdmin .rellenoAdminEntrenador").css({"margin-top":"50px", "margin-bottom": "50px"});
+			$(".panelEn .titulo_boton").css({"border-bottom":"1px solid black", "background-color":"gray"});
 			comprobarEn=1;
 		}else{
 			$(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			comprobarEn=0;
 		}
     });	
@@ -63,12 +72,15 @@ $(document).ready(function(){
 		if(comprobarCa==0){
             $(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			$(".panelCa .divTablaAdmin").show(1200);
-			$(".panelCa .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			$(".panelCa .divTablaAdmin .rellenoAdminCategoria").css({"margin-top":"50px", "margin-bottom": "50px"});
+			$(".panelCa .titulo_boton").css({"border-bottom":"1px solid black", "background-color":"gray"});
 			comprobarCa=1;
 		}else{
 			$(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			comprobarCa=0;
 		}
     });	
@@ -77,12 +89,15 @@ $(document).ready(function(){
 		if(comprobarCo==0){
             $(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			$(".panelCo .divTablaAdmin").show(1200);
-			$(".panelCo .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			$(".panelCo .divTablaAdmin .rellenoAdminConsulta").css({"margin-top":"50px", "margin-bottom": "50px"});
+			$(".panelCo .titulo_boton").css({"border-bottom":"1px solid black", "background-color":"gray"});
 			comprobarCo=1;
 		}else{
             $(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			comprobarCo=0;
 		}
     });	
@@ -91,12 +106,15 @@ $(document).ready(function(){
 		if(comprobarU==0){
 			$(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			$(".panelU .divTablaAdmin").show(1200);
-			$(".panelU .divTablaAdmin").css({"margin-top":"20px", "margin-bottom": "20px"});
+			$(".panelU .divTablaAdmin .rellenoAdminUsuario").css({"margin-top":"50px", "margin-bottom": "50px"});
+			$(".panelU .titulo_boton").css({"border-bottom":"1px solid black", "background-color":"gray"});
 			comprobarU=1;
 		}else{
 			$(".divTablaAdmin").hide(800);
 			$(".divTablaAdmin").css("margin","0px");
+			$(".titulo_boton").css({"border-bottom":"0px","background-color":"white"});
 			comprobarU=0;
 		}
 	});	
